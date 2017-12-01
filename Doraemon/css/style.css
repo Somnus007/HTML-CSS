@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+#head{width:310px;height:300px;border:2px solid #000;border-radius:49%;margin:40px auto;background:#0daed8;position:relative;}
+#head *{position:absolute;}
+.face{width:264px;height:212px;border:2px solid #000;border-radius:48%;background:#fff;left:0;right:0;margin:auto;bottom:8px;}
+.eye-l{width:72px;height:83px;border:2px solid #000;border-radius:42%;background:#fff;right:50%;top:-32px;margin-right:-1px;}
+.eye-l p{width:15px;height:15px;border-radius:50%;background:#000;right:11px;bottom:15px;transition:0.5s;transform-origin:left top;}
+.eye-l:hover p{transform:rotate(360deg);}
+.eye-r{width:72px;height:83px;border:2px solid #000;border-radius:42%;background:#fff;left:50%;top:-32px;margin-left:-1px;}
+.eye-r p{width:15px;height:15px;border-radius:50%;background:#000;left:11px;bottom:15px;transition:0.5s;transform-origin:right top;}
+.eye-r:hover p{transform:rotate(360deg);}
+.nose{width:32px;height:32px;border:2px solid #000;border-radius:50%;background:radial-gradient(circle at 68% 32%,#fff 1%,#fff 6%,#ca3e01 24%,#ca3e01 6%);left:0;right:0;margin:auto;top:40px;}
+.mouth{width:168px;height:32px;border:3px solid #000;border-radius:0 0 95px 95px/0 0 40px 40px;background:#fff;left:0;right:0;margin:auto;bottom:43px;}
+.mouth-t{width:174px;height:3px;background:#fff;left:-3px;top:-3px;}
+.shuxian{width:3px;height:90px;background:#000;left:0;right:0;margin:auto;bottom:46px;}
+.xul{width:60px;height:2px;background:#000;transform-origin:right;top:90px;left:27px;}
+.xur{width:60px;height:2px;background:#000;transform-origin:left;top:90px;right:27px;}
+.xu1{transform:rotate(15deg);top:82px;}
+.xu3{transform:rotate(-15deg);top:98px;}
+.xu4{transform:rotate(-15deg);top:82px;}
+.xu5{transform:rotate(15deg);top:98px;}
+
+#tbody{width:220px;height:49px;background:#0daed8;margin:0 auto;margin-top:-50px;position:relative;}
+#tbody *{position:absolute;}
+.lbi{width:57px;height:48px;border:2px solid #000;background:#0daed8;left:-59px;top:-1px;transform-origin:right top;transform:rotate(-35deg);z-index:-1;}
+.lbi p{width:60px;height:60px;border:2px solid #000;background:#fff;border-radius:50%;top:-8px;left:-53px;}
+.rbi{width:57px;height:48px;border:2px solid #000;background:#0daed8;right:-59px;top:-1px;transform-origin:left top;transform:rotate(35deg);z-index:-1;}
+.rbi p{width:60px;height:60px;border:2px solid #000;background:#fff;border-radius:50%;top:-8px;right:-53px;}
+.bbody{width:220px;height:107px;border:2px solid #000;border-top:0;background:#0daed8;top:49px;left:-2px;}
+.duzi{width:170px;height:170px;border:2px solid #000;border-radius:50%;background:#fff;top:-92px;left:0;right:0;margin:auto;}
+.weijin{width:230px;height:20px;border:2px solid #000;border-radius:9px;background:#af2a01;top:-24px;left:0;right:0;margin:auto;margin-right:-7px;}
+.zhe{width:150px;height:20px;background:#fff;top:-22px;left:0;right:0;margin:auto;}
+.ling{width:40px;height:40px;background:#f3eb24;top:7px;left:0;right:0;margin:auto;border-radius:50%;border:2px solid #000;}
+.ling p{width:36px;height:2px;background:#f9f12a;top:10px;left:0;right:0;margin:auto;border:2px solid #000;}
+.ling b{display:block;width:12px;height:10px;background:#000;top:20px;left:0;right:0;margin:auto;border-radius:50%;}
+.ling i{display:block;width:3px;height:10.5px;background:#000;top:29.5px;left:0;right:0;margin:auto;}
+.koudai{width:130px;height:66px;background:#fff;top:84px;left:0;right:0;margin:auto;border-radius:0 0 65px 65px/0 0 60px 60px;border:2px solid #000;}
+.tuifeng{width:20px;height:10px;background:#fff;top:95px;left:0;right:0;margin:auto;border-radius:10px 10px 0 0/10px 10px 0 0;border:2px solid #000;border-bottom:2px solid #fff;}
+.lleg{width:125px;height:30px;background:#fff;bottom:-34px;right:50%;border-radius:20px 15px 15px 10px;border:2px solid #000;margin-right:2px;}
+.rleg{width:125px;height:30px;background:#fff;bottom:-34px;left:50%;border-radius:15px 20px 10px 15px;border:2px solid #000;margin-left:2px;}
+
+.koudai img{display:block;width:16px;height:12px;left:60px;top:20px;opacity:0;transition:1s;}
+.koudai:hover img{left:385px;top:-85px;transform:rotate(720deg) scale(15,15);opacity:1;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
