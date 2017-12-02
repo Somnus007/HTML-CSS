@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+
+#header{width:1102px;height:96px;margin:0 auto;}
+#header .logo{float:left;margin-top:29px;}
+#header ul{float:right;}
+#header ul li{height:88px;float:left;margin-left:40px;font:12px/88px "";}
+#header ul li a{color:#23272c;}
+#header ul li a:hover{color:#56aab3;}
+
+#banner{height:601px;border-top:1px solid #f2f2f2;}
+#banner img{height:601px;width:100%;}
+
+#jianshe{height:382px;background:#f8f8f8;}
+#jianshe .margin{width:1102px;height:307px;margin:0 auto;padding-top:75px;overflow:hidden;}
+#jianshe .margin ul{width:1142px;height:307px;}
+#jianshe .margin ul li{width:344px;height:307px;margin-right:36px;float:left;text-align:center;}
+#jianshe .margin ul li img{display:block;margin-left:111px;}
+#jianshe .margin ul li h3{height:34px;padding-top:24px;font:14px/34px "";color:#23272c;}
+#jianshe .margin ul li p{font:12px/24px "";color:#7a8593;}
+
+#xiaoguo .t{width:1102px;height:166px;margin:0 auto;text-align:center;padding-top:58px;}
+#xiaoguo .t h2{font:24px/72px "";color:#23272c;}
+#xiaoguo .t i{display:inline-block;width:192px;height:3px;background:#f8f8f8;}
+#xiaoguo .t p{font:12px/85px "";color:#23272c;}
+#xiaoguo .t p span{color:#7a8593;}
+#xiaoguo .t p a{color:#23272c;margin:0 10px;}
+#xiaoguo .t p a:hover{color:#56b1cd;}
+#xiaoguo ul{overflow:hidden;}
+#xiaoguo ul li{float:left;width:25%;}
+#xiaoguo ul li a{display:block;}
+#xiaoguo ul li a img{display:block;width:100%;}
+
+#shuzhi{height:174px;background:#f8f8f8;}
+#shuzhi .margin{width:1102px;height:126px;margin:0 auto;padding-top:48px;}
+#shuzhi .margin ul{overflow:hidden;}
+#shuzhi .margin ul li{float:left;width:367px;text-align:center;}
+#shuzhi .margin ul li h1{font:700 44px/64px "";color:#323232;}
+#shuzhi .margin ul li h4{font:14px/22px "";color:#7a8593;}
+#shuzhi .margin ul li h1:hover{color:#56aab3;}
+
+#reason{width:1102px;height:450px;margin:0 auto;padding-top:17px;overflow:hidden;}
+#reason h1{text-align:center;font:700 34px/68px "";color:#d71b29;}
+#reason h3{height:127px;text-align:center;font:12px/42px "";color:#7a8593;}
+#reason ul{width:1145px;}
+#reason ul li{width:336px;height:107px;float:left;margin-right:41px;}
+#reason ul li img{float:left;margin:6px 20px 0 0;}
+#reason ul li dl{width:286px;float:right;}
+#reason ul li dt{font:14px/25px "";color:#23272c;}
+#reason ul li dd{font:14px/24px "";color:#7a8593;}
+
+#pingjia{height:368px;background:#33363f;}
+#pingjia .margin{width:1102px;height:308px;margin:0 auto;padding-top:60px;text-align:center;}
+#pingjia .margin b{display:block;text-align:center;font:700 14px/57px "";color:#fff;}
+#pingjia .margin i{width:110px;height:3px;background:#56aab3;display:inline-block;}
+#pingjia .margin h3{margin-top:25px;font:700 20px/39px "";color:#fff;}
+#pingjia .margin .s1{font:12px/25px "";color:#fff;}
+#pingjia .margin .s2{font:12px/25px "";color:#7a8593;}
+#pingjia .margin a{font:12px/25px "";color:#4caaa7;}
+#pingjia .margin .te{margin-top:30px;}
+#pingjia .margin .te img{margin:0 7px;}
+
+#dongtai{width:1102px;height:551px;margin:0 auto;padding-top:55px;overflow:hidden;text-align:center;}
+#dongtai h3{font:700 28px/63px "";color:#23272c;}
+#dongtai span{display:inline-block;width:110px;height:3px;background:#f2f2f2;}
+#dongtai ul{width:110%;height:435px;padding-top:50px;}
+#dongtai ul li{width:253px;float:left;margin-right:30px;text-align:left;}
+#dongtai ul li img{display:block;}
+#dongtai ul li b{display:block;margin-top:20px;font:16px/31px "";color:#23272c;}
+#dongtai ul li i{display:block;font:12px/23px "";color:#7a8593;}
+#dongtai ul li p{margin-top:12px;font:12px/24px "";color:#7a8593;}
+#dongtai ul li a{color:#56aab3;}
+#dongtai ul li a.te{font:12px/44px "";display:block;}
+
+#friendlink{height:84px;background:#f8f8f8;}
+#friendlink .margin{width:1102px;height:84px;margin:0 auto;}
+#friendlink .margin b{font:14px/84px "";margin-right:10px;color:#7a8593;}
+#friendlink .margin a{font:14px/84px "";margin-right:10px;color:#999;}
+
+#footer{height:110px;background:#272b34;}
+#footer .margin{width:1102px;height:54px;margin:0 auto;padding-top:30px;}
+#footer .margin p{font:12px/26px "";color:#7a8593;}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+/*文本溢出出现省略号*/
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+/*图片垂直居中*/
+.valign:after{content:"";vertical-align:middle;height:100%;width:0;display:inline-block;}
+.valign img{vertical-align:middle;}
+/*万能清除法 解决高度塌陷 margin-top影响*/
+.clear{zoom:1;}/*清除IE的浮动*/
+.clear:before{content:"";display:table;}/*消除margin-top影响*/
+.clear:after{content:"";clear:both;display:block;}
+
