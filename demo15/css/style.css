@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+#top{height:35px;background:url(../images/topbg.jpg);}
+#top .margin{width:950px;height:35px;margin:0 auto;}
+#top .margin img{float:right;margin:10px 10px 0 0;}
+
+#header{width:950px;height:100px;margin:0 auto;}
+#header img{display:block;float:left;margin:42px 80px 0 10px;}
+#header ul{float:left;margin-top:32px;height:46px;}
+#header ul li{height:46px;float:left;background:url(../images/header1.jpg) no-repeat right;padding:0 11px;}
+#header ul li.te{background:none;}
+#header ul li a{display:block;width:80px;height:46px;font:14px/46px "";text-align:center;}
+#header ul li a:hover{color:#000;border-bottom:3px solid #000;}
+
+#banner{height:400px;background:url(../images/banner.jpg) no-repeat center;}
+
+#sheji{width:950px;margin:0 auto;}
+#sheji ul{overflow:hidden;padding:46px 0 69px 0;}
+#sheji ul li{float:left;margin:0 41px;}
+#sheji ul li a{display:block;}
+
+#title{width:950px;margin:0 auto;text-align:center;}
+#title h3{font:20px/32px "";color:#ff0000;background:#2d3237;}
+#title h3 span{font:20px/32px "";color:#fff;background:#2d3237;}
+#title p{background:url(../images/titlebg.jpg) repeat-x top;}
+#title span{font:14px/20px "";color:#4d5155;background:#fff;padding:0 10px;}
+
+#zhanshi{width:950px;margin:0 auto;overflow:hidden;padding:37px 0 57px 0;}
+#zhanshi ul{overflow:hidden;width:110%;}
+#zhanshi ul li{float:left;margin-right:20px;width:172px;}
+#zhanshi ul li img{display:block;}
+#zhanshi ul li .d1{height:70px;background:#2d3237;}
+#zhanshi ul li p{display:inline-block;vertical-align:middle;margin-left:27px;}
+#zhanshi ul li p b{display:block;font-size:14px;color:#e70506;}
+#zhanshi ul li p i{display:block;font-size:12px;color:#f1f1f1;}
+#zhanshi ul li.te1 .d1{background:#ff0000;}
+#zhanshi ul li.te1 b{color:#1b1919;}
+#zhanshi ul li.te1 p{color:#fff;}
+#zhanshi ul li.te2{width:180px;}
+#zhanshi ul li.te2 .d1{background:#ff0000;}
+#zhanshi ul li.te2 b{color:#1f1919;}
+#zhanshi ul li.te2 p{color:#fff;}
+
+#about{width:950px;margin:0 auto;text-align:center;padding:18px 0 93px;color:#666;}
+#about h3{font:18px/33px "";}
+#about h3 b{font-weight:700;}
+#about p{font:14px/27px "";}
+
+#service{width:950px;margin:0 auto;text-align:center;padding:39px 0 132px;color:#666;font:12px/22px "";}
+#service img{margin:0 5px;}
+
+#footer{padding:26px 0;text-align:center;background:#eaeaea;border-top:1px solid #b4b4b4;color:#000;font:12px/22px "";}
+#footer a{color:#000;}
+
+
+
+
+
+
+
+
+
+
+
+
+
