@@ -8,3 +8,5 @@ Some pages only by html &amp; css
 2. 一个基于css3的2D以及3D动画的多彩盒子，点击链接查看：https://somnus007.github.io/HTML-CSS/Cube/index.html
 
 3. 一个基于css3的2D以及3D动画的照片墙，点击链接查看：https://somnus007.github.io/HTML-CSS/photowall/index.html
+
+4. 一个基于responsive布局实现的静态页面（仿开源博客系统），点击链接查看：https://somnus007.github.io/HTML-CSS/ghostchina/index.html
