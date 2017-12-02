@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+li{list-style:none;}
+a{text-decoration:none;}
+*{margin:0;padding:0;}
+
+#header{width:999px;height:101px;background:#ffffff;margin:0 auto;}
+#header .logo{width:245px;height:28px;float:left;margin:40px 0 0 21px;}
+#header .search{width:227px;height:28px;float:right;margin:40px 20px 0 0;background:#f1f1f1;border:1px solid #e6e6e6;}
+#header .search input{float:left;border:0;background:none;}
+#header .search .text{width:173px;height:28px;margin-left:15px;font:12px/28px "";}
+#header .search .submit{width:16px;height:13px;margin:8px 0 0 15px;background:url(../images/fangdajing.png) no-repeat;}
+
+#nav{width:999px;height:59px;background:#313131;margin:0 auto;}
+#nav ul li{width:120px;height:59px;border-left:1px solid #4a4a4a;float:left;text-align:center;}
+#nav ul .te{margin-left:25px;border:0;}
+#nav ul li a{font:12px/59px "";color:#f7f7f7;}
+#nav ul li:hover{background:#f15a23;}
+
+#banner{width:999px;height:464px;margin:0 auto;}
+
+#main{width:999px;height:546px;margin:0 auto;background:#ffffff;}
+#main .main-t{width:999px;height:241px;}
+#main .main-t .main-t-l{width:478px;height:226px;float:left;padding:15px 0 0 22px;}
+#main .main-t .main-t-l h3{width:479px;height:61px;font:18px/61px "";color:#232323;}
+#main .main-t .main-t-l ul{height:26px;}
+#main .main-t .main-t-l ul li{width:479px;height:26px;list-style-image:url(../images/yuandian.png);}
+#main .main-t .main-t-l ul li a{height:26px;font:12px/26px "";color:#545454;float:left;}
+#main .main-t .main-t-l ul li p{height:26px;font:12px/26px "";color:#9a9a9a;margin-right:28px;float:right;}
+#main .main-t .main-t-c{width:192px;height:236px;float:left;padding:5px 23px 0 26px;background:#f1f1f1;}
+#main .main-t .main-t-c h3{height:82px;font:18px/82px "";color:#232323;}
+#main .main-t .main-t-c .p1{height:26px;font:12px/26px "";color:#4d4d4d;}
+#main .main-t .main-t-c .p2{height:23px;font:11px/23px "";color:#4e4e4e;}
+#main .main-t .main-t-c .p3{height:25px;font:11px/25px "";color:#8b8b8b;}
+#main .main-t .main-t-r{width:232px;height:225px;float:left;padding:16px 0 0 26px;background:#fbfbfb url(../images/huapen.png) no-repeat right bottom;}
+#main .main-t .main-t-r h3{height:59px;font:18px/59px "";color:#232323;}
+#main .main-t .main-t-r p{width:181px;height:48px;font:12px/24px "";color:#525252;}
+#main .main-t .main-t-r img{margin-top:50px;}
+#main .main-b{width:979px;height:291px;padding:14px 0 0 20px;}
+#main .main-b h3{height:52px;font:18px/52px "";color:#232323;}
+#main .main-b ul{height:241px;}
+#main .main-b ul li{width:211px;height:198px;margin-left:40px;float:left;}
+#main .main-b ul .te{margin:0;}
+#main .main-b ul li p{height:25px;font:12px/25px "";color:#4b4b4b;margin-top:12px;}
+
+#map{width:979px;height:230px;padding:21px 0 0 20px;background:#e5e5e5;margin:0 auto;}
+#map .map-l{width:452px;height:230px;float:left;}
+#map .map-l h3{width:452px;height:38px;font:16px/38px "";color:#656565;text-indent:12px;border-bottom:1px solid #c2c2c2;}
+#map .map-l ul{height:170px;margin-top:15px;}
+#map .map-l ul li{width:150px;height:26px;float:left;}
+#map .map-l ul li a{height:26px;font:12px/26px "";color:#606060;margin-left:6px;}
+#map .map-c{width:152px;height:230px;float:left;margin-left:51px;}
+#map .map-c h3{width:152px;height:38px;font:16px/38px "";color:#656565;text-indent:12px;border-bottom:1px solid #c2c2c2;}
+#map .map-c ul{height:170px;margin-top:15px;}
+#map .map-c ul li{width:150px;height:26px;}
+#map .map-c ul li a{height:26px;font:12px/26px "";color:#606060;margin-left:6px;}
+#map .map-r{width:270px;height:230px;float:left;margin-left:51px;}
+#map .map-r h3{width:152px;height:38px;font:16px/38px "";color:#656565;text-indent:12px;border-bottom:1px solid #c2c2c2;}
+#map .map-r img{margin-top:15px;}
+
+#footer{width:985px;height:57px;padding:25px 0 0 14px;background:#ffffff;margin:0 auto;}
+#footer .nei{width:860px;height:20px;float:left;}
+#footer .nei a{width:60px;height:12px;font:10px/12px "";color:#888888;float:left;text-align:center;border-right:1px solid #888888;}
+#footer .nei .te{border:0;width:185px;text-align:left;margin-left:8px;}
+#footer .nei p{width:480px;height:20px;font:10px/12px "";color:#888888;float:left;}
+#footer a img{float:left;}
