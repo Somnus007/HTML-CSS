@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+a{text-decoration:none;}
+li{list-style:none;}
+.over{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.valign{vertical-align:middle;height:100%;width:0;display:inline-block;}
+
