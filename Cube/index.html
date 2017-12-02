@@ -5,7 +5,7 @@
 <title>旋转立方体</title>
 <style>
 *{margin:0;padding:0;}
-.box{width:200px;height:200px;margin:100px auto;transform-style:preserve-3d;transition:200s linear all;}
+.box{width:200px;height:200px;margin:100px auto;transform-style:preserve-3d;animation:zhuan 8s linear infinite;}
 ul{width:200px;height:200px;margin:100px auto;transform-style:preserve-3d;position:relative;transform:rotateX(45deg) rotateY(45deg);}
 li{width:200px;height:200px;position:absolute;left:0;top:0;list-style:none;}
 .top{background:red;opacity:0.5;transform:translateY(-100px) rotateX(90deg);}
@@ -14,7 +14,10 @@ li{width:200px;height:200px;position:absolute;left:0;top:0;list-style:none;}
 .right{background:blue;opacity:0.5;transform:translateX(100px) rotateY(90deg);}
 .front{background:cyan;opacity:0.5;transform:translateZ(100px);}
 .back{background:purple;opacity:0.5;transform:translateZ(-100px);}
-.box:hover{transform:rotateY(18000deg);}
+@keyframes zhuan{
+	0%{transform:rotateX(-10deg) rotateY(0);}
+	100%{transform:rotateX(-10deg) rotateY(360deg);}
+	}
 </style>
 </head>
 
