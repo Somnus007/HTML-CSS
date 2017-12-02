@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>照片墙</title>
+<style>
+*{margin:0;padding:0;}
+html{background:url(img/6.jpg) no-repeat;background-size:cover;}
+.box{width:240px;height:160px;margin:240px auto;perspective:1000px;}
+ul{position:relative;transform-style:preserve-3d;animation:zhuan 8s linear infinite;}
+li{display:block;position:absolute;left:0;top:0;}
+img{width:240px;height:160px;display:block;}
+ul li:nth-child(1){transform:translateZ(400px);}
+ul li:nth-child(2){transform:rotateY(45deg) translateZ(400px);}
+ul li:nth-child(3){transform:rotateY(90deg) translateZ(400px);}
+ul li:nth-child(4){transform:rotateY(135deg) translateZ(400px);}
+ul li:nth-child(5){transform:rotateY(180deg) translateZ(400px);}
+ul li:nth-child(6){transform:rotateY(225deg) translateZ(400px);}
+ul li:nth-child(7){transform:rotateY(270deg) translateZ(400px);}
+ul li:nth-child(8){transform:rotateY(315deg) translateZ(400px);}
+@keyframes zhuan{
+	0%{transform:rotateX(-10deg) rotateY(0);}
+	100%{transform:rotateX(-10deg) rotateY(360deg);}
+	}
+</style>
+</head>
+
+<body>
+<div class="box">
+	<ul>
+    	<li><img src="img/1.jpg"/></li>
+        <li><img src="img/2.jpg"/></li>
+        <li><img src="img/3.jpg"/></li>
+        <li><img src="img/4.jpg"/></li>
+        <li><img src="img/5.jpg"/></li>
+        <li><img src="img/6.jpg"/></li>
+        <li><img src="img/7.jpg"/></li>
+        <li><img src="img/8.jpg"/></li>
+    </ul>
+</div>
+
+</body>
+</html>
