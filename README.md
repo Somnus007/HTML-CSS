@@ -13,5 +13,5 @@ Some pages only by html &amp; css
 
 5. 一些简单的企业站点静态页面，点击链接查看：https://somnus007.github.io/HTML-CSS/simpleEnterprisePages/index.html
 
-* We use the wordpress to store part of the data, so a wordpress server is required. : [Wordpress Reference](https://codex.wordpress.org/Installing_WordPress) 
-* ElasticSearch server is used to support searching in help center . Reference: [ElasticSearch Reference](https://www.elastic.co/downloads/elasticsearch) 
+* We use the wordpress to store part of the data, so a wordpress server is required.  [Wordpress Reference](https://codex.wordpress.org/Installing_WordPress) 
+* ElasticSearch server is used to support searching in help center .  [ElasticSearch Reference](https://www.elastic.co/downloads/elasticsearch) 
